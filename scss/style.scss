@@ -1,0 +1,16 @@
+@import "../partials/variables/variables";
+@import "../partials/extend";
+@import "../partials/mixins";
+@import "partials/header";
+@import "partials/contaco";
+@import "partials/footer";
+@import "partials/galeria";
+@import "partials/general";
+@import "partials/index";
+@import "partials/servicios";
+@import "partials/ubicacion";
+
+* {
+    margin: 0;
+    padding: 0;
+}

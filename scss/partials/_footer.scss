@@ -1,0 +1,18 @@
+@import "../partials/variables/variables";
+@import "../partials/extend";
+@import "../partials/mixins";
+
+
+footer {
+    @extend footer ;
+    @include flex;
+
+    a {
+        @include mixin-para-a-footer;
+
+    }
+}
+
+.copi {
+    color: aliceblue;
+}
